@@ -76,8 +76,9 @@ export default class Presentation extends React.Component {
           <Heading size={6} textColor="quaternary" bgColor="white">
           EXPERIENCE / ROLES
           </Heading><br/>       
-          <Text textColor="secondary" style={{fontSize:'1em',textAlign:'left'}}>DevOps / Cloud Architect <span style={{color: 'lightgrey',fontSize:'1.5rem',float:'right'}}> Mobgen / AI [Mar 2017 - now]</span></Text>
-          <Text textColor="secondary" style={{fontSize:'1em',textAlign:'left'}}>Product Manager / Information Security Lead - Halo<span style={{color: 'lightgrey',fontSize:'1.5rem',float:'right'}}>Mobgen / AI  [Mar 2017 - now]</span></Text>
+          <Text textColor="secondary" style={{fontSize:'1em',textAlign:'left'}}>Engineering Manager / DevOps<span style={{color: 'lightgrey',fontSize:'1.5rem',float:'right'}}> Mobgen / AI [Mar 2018 - now]</span></Text>
+          <Text textColor="secondary" style={{fontSize:'1em',textAlign:'left'}}>Solution Architect / DevOps (multiple projects)<span style={{color: 'lightgrey',fontSize:'1.5rem',float:'right'}}> Mobgen / AI [Mar 2019 - Dec 2020]</span></Text>
+          <Text textColor="secondary" style={{fontSize:'1em',textAlign:'left'}}>Product Manager / Information Security Lead - Halo<span style={{color: 'lightgrey',fontSize:'1.5rem',float:'right'}}>Mobgen / AI  [Mar 2017 - Dec 2019]</span></Text>
           <Text textColor="secondary" style={{fontSize:'1em',textAlign:'left'}}>Solution Architect - Halo<span style={{color: 'lightgrey',fontSize:'1.5rem',float:'right'}}>Mobgen [Dec 2015 - Jan 2018]</span></Text>
           <Text textColor="secondary" style={{fontSize:'1em',textAlign:'left'}}>Lead Full Stack Web Engineer <span style={{color: 'lightgrey',fontSize:'1.5rem',float:'right'}}>Mobgen [Feb 2014 - Dec 2015]</span></Text>
           <Text textColor="secondary" style={{fontSize:'1em',textAlign:'left'}}>Cofounder and Collaborator <span style={{color: 'lightgrey',fontSize:'1.5rem',float:'right'}}>Codefixia [Sep 2012 - Sep 2014]</span></Text>
