@@ -39,7 +39,6 @@ export default class Presentation extends React.Component {
         theme={theme}
       >
         <Slide transition={['zoom']} bgColor="tertiary">
-          <Image alt="Me" src="./photo.jpg" height="200"/>
           <Heading size={4} caps lineHeight={1} textColor="quaternary" bgColor="primary">
             CONSTANTINO F. T.            
           </Heading>
@@ -54,6 +53,8 @@ export default class Presentation extends React.Component {
           >
             https://es.linkedin.com/in/constantinofernandeztraba/en
           </a>          
+          <br/>
+          <a href={atob('bWFpbHRvOmRhcmt4ZW5vQGdtYWlsLmNvbQ==')}>{atob('ZGFya3hlbm9AZ21haWwuY29t')}</a>  
           <br/>
           <a
             href="https://github.com/darkxeno"
