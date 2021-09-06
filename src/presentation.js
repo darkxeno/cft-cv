@@ -31,7 +31,8 @@ const theme = {
 };
 
 const textStyle1 = {
-  fontSize:'1.5em',
+  fontSize:'1.25em',
+  lineHeight:'1.5em',
   textAlign:'left',
   margin: 0,
   padding: 0,
@@ -76,19 +77,19 @@ export default class Presentation extends React.Component {
           <br/>
           <br/>
           <br/>
-          <Text style={{...textStyle1, fontSize: '0.75em', textAlign: 'right'}}>Last update: 1st June 2021</Text>
+          <Text style={{...textStyle1, fontSize: '0.75em', textAlign: 'right'}}>Last update: 5th September 2021</Text>
         </Slide>
         <Slide backgroundColor="primary" textColor="white" textColor="secondary">
           <Heading size={6} backgroundColor="white">
           CURRENT POSITION
           </Heading>
           <Text style={textStyle1} color="quaternary">
-          Engineering Manager / DevOps<span style={{color: 'lightgrey',fontSize:'1.5rem',float:'right'}}> Mobgen / AI [Jan 2018 - now]</span>
+          DevOps Lead / Engineering Manager<span style={{color: 'lightgrey',fontSize:'1.5rem',float:'right'}}> Mobgen / AI [Jan 2021 - now]</span>
           </Text><br/>
           <Heading size={6} backgroundColor="white">
           EXPERIENCE / ROLES
-          </Heading><br/>       
-          <Text style={textStyle1} color="quaternary">Engineering Manager / DevOps<span style={{color: 'lightgrey',fontSize:'1.5rem',float:'right'}}> Mobgen / AI [Mar 2018 - now]</span></Text>
+          </Heading>    
+          <Text style={textStyle1} color="quaternary">DevOps Lead / Engineering Manager<span style={{color: 'lightgrey',fontSize:'1.5rem',float:'right'}}> Mobgen / AI [Jan 2021 - now]</span></Text>
           <Text style={textStyle1} color="quaternary">Solution Architect / DevOps (multiple projects)<span style={{color: 'lightgrey',fontSize:'1.5rem',float:'right'}}> Mobgen / AI [Mar 2019 - Dec 2020]</span></Text>
           <Text style={textStyle1} color="quaternary">Product Manager / Information Security Lead - Halo<span style={{color: 'lightgrey',fontSize:'1.5rem',float:'right'}}>Mobgen / AI  [Mar 2017 - Dec 2019]</span></Text>
           <Text style={textStyle1} color="quaternary">Solution Architect - Halo<span style={{color: 'lightgrey',fontSize:'1.5rem',float:'right'}}>Mobgen [Dec 2015 - Jan 2018]</span></Text>
@@ -104,31 +105,38 @@ export default class Presentation extends React.Component {
           <Heading size={6} backgroundColor="white">
             TECHNOLOGIES / TOOLS
           </Heading>  
-          <Text style={{ ...textStyle1, fontSize: '2.5em', lineHeight: '1em', fontFamily: 'monospace', color: "white",  }}>                          
+          <Text style={{ ...textStyle1, fontSize: '1.5em', lineHeight: '1em', fontFamily: 'monospace', color: "white",  }}>                          
+            <br/><br/>
             <span style={{color: 'lightgrey'}}>DevOps:</span>
               &nbsp;kubernetes <span style={{color: '#33B969'}}>expert</span>, docker <span style={{color: '#33B969'}}>expert</span>, cloudformation, helm
               CI/CD (Azure DevOps <span style={{color: '#33B969'}}>expert</span>, Bamboo, Drone), bash scripting, linux, ansible, ...
-            <br/>            
+            <br/><br/>
+            <span style={{color: 'lightgrey'}}>Monitoring / Observability:</span>
+              &nbsp;azure application insights <span style={{color: '#33B969'}}>expert</span>, new relic <span style={{color: '#33B969'}}>expert</span>, aws cloudwatch, prometheus, fluentd, elastic...
+            <br/><br/>                                    
             <span style={{color: 'lightgrey'}}>AWS Cloud:</span>
               &nbsp;ec2 <span style={{color: '#33B969'}}>expert</span>, ecs, eks, iam, vpc, cloudwatch, rds
               dynamodb, documentdb, s3, cloudfront, API Gateway, lambda, acm, ...
-            <br/>            
+            <br/><br/> 
+            <span style={{color: 'lightgrey'}}>Azure Cloud:</span>
+              &nbsp;app service, functionApps, aks, app. insights <span style={{color: '#33B969'}}>expert</span>, keyVault, blob storage, ...
+            <br/><br/>                       
             <span style={{color: 'lightgrey'}}>DBs/others:</span>
               &nbsp;mysql <span style={{color: '#33B969'}}>expert</span>, mongodb <span style={{color: '#33B969'}}>expert</span>, kafka (streams), redis
                memcached, varnish, cassandra, ...
-            <br/>            
+            <br/><br/>            
             <span style={{color: 'lightgrey'}}>Backend:</span>
               &nbsp;nodejs <span style={{color: '#33B969'}}>expert</span>, php, scala, java
-            <br/>            
+            <br/><br/>            
             <span style={{color: 'lightgrey'}}>Frontend:</span>
               &nbsp;javascript <span style={{color: '#33B969'}}>expert</span>, react <span style={{color: '#33B969'}}>expert</span>
-            <br/>            
+            <br/><br/>            
             <span style={{color: 'lightgrey'}}>Machine Learning:</span>
               &nbsp;tensorflow, keras, python, matlab (beginner)
-            <br/>            
+            <br/><br/>            
             <span style={{color: 'lightgrey'}}>Mobile:</span>
              &nbsp;iOS objective C, Android Java (old)
-            <br/>
+            <br/><br/>
           </Text>     
         </Slide>
         <Slide backgroundColor="primary" textColor="quaternary"> 
